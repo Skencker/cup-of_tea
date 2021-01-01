@@ -23,8 +23,8 @@ body {
     width: 280px;
     height: 300px;
     background: linear-gradient(to right, #f790e0, #d879b8);
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 45%;
+    border-bottom-right-radius: 45%;
      
 }
 
@@ -95,12 +95,13 @@ body {
 .plate::after {
     content: "";
     position: absolute;
-    top: 10px;
+    top: 8px;
     left: 50px;
     border-radius: 50%;
     background: radial-gradient(rgba(0,0,0,0.2) 25%, transparent, transparent);
     width: 300px;
-    height: 80px;   
+    height: 80px;  
+     
 }
 .vapeur {
     position: relative;
